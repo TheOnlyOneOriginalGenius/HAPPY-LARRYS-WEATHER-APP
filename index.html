@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Larry's Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🌤 Happy Larry's Weather App 🌧</h1>
+
+  <div class="container">
+    <input id="cityInput" placeholder="Enter City Name" />
+    <button id="searchBtn">Search</button>
+
+    <h2>Current Weather</h2>
+    <div id="currentWeather"></div>
+
+    <h2>5-Day Forecast</h2>
+    <div id="forecast"></div>
+
+    <h2>Search History</h2>
+    <ul id="searchHistory"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+<style>body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#forecast, #currentWeather, #searchHistory {
+  margin-top: 20px;
+}
+
+#forecast div, #currentWeather div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 5px;
+}
+</style>
