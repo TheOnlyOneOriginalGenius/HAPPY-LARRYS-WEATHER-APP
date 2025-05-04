@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f8ff;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  #forecast, #currentWeather, #searchHistory {
+    margin-top: 20px;
+  }
+  
+  #forecast div, #currentWeather div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
